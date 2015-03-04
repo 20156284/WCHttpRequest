@@ -14,6 +14,7 @@
 		BE6D50F71AA6B3BD008D1B4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6D50F61AA6B3BD008D1B4E /* Images.xcassets */; };
 		BE6D50FA1AA6B3BD008D1B4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6D50F81AA6B3BD008D1B4E /* LaunchScreen.xib */; };
 		BE6D51061AA6B3BD008D1B4E /* WCHttpRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6D51051AA6B3BD008D1B4E /* WCHttpRequestTests.m */; };
+		BE6D51111AA6B3D0008D1B4E /* WCHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6D51101AA6B3D0008D1B4E /* WCHttpRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BE6D50FF1AA6B3BD008D1B4E /* WCHttpRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCHttpRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6D51041AA6B3BD008D1B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6D51051AA6B3BD008D1B4E /* WCHttpRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCHttpRequestTests.m; sourceTree = "<group>"; };
+		BE6D510F1AA6B3D0008D1B4E /* WCHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCHttpRequest.h; sourceTree = "<group>"; };
+		BE6D51101AA6B3D0008D1B4E /* WCHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCHttpRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				BE6D50F61AA6B3BD008D1B4E /* Images.xcassets */,
 				BE6D50F81AA6B3BD008D1B4E /* LaunchScreen.xib */,
 				BE6D50E91AA6B3BD008D1B4E /* Supporting Files */,
+				BE6D510F1AA6B3D0008D1B4E /* WCHttpRequest.h */,
+				BE6D51101AA6B3D0008D1B4E /* WCHttpRequest.m */,
 			);
 			path = WCHttpRequest;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE6D50F21AA6B3BD008D1B4E /* ViewController.m in Sources */,
+				BE6D51111AA6B3D0008D1B4E /* WCHttpRequest.m in Sources */,
 				BE6D50EF1AA6B3BD008D1B4E /* AppDelegate.m in Sources */,
 				BE6D50EC1AA6B3BD008D1B4E /* main.m in Sources */,
 			);
